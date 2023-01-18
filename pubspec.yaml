@@ -6,16 +6,17 @@ publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.15.0 <3.0.0"
+  sdk: ">=2.18.2 <3.2.0"
 
 dependencies:
-  cloud_firestore: ^3.1.6
+  cloud_firestore: ^4.0.1
 
-  firebase_core: ^1.11.0
+  firebase_core: ^2.1.1
   flutter:
     sdk: flutter
   flutter_bloc: ^8.0.1
-  intl: ^0.18.0
+  flutterfire_ui: ^0.4.3+14
+  intl: ^0.17.0
 
 dev_dependencies:
 
